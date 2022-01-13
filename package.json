@@ -1,0 +1,29 @@
+{
+  "name": "nextjs-lit",
+  "version": "4.0.0",
+  "private": true,
+  "dependencies": {
+    "@lit-labs/ssr": "^2.0.1",
+    "lit": "2.0.0-rc.2",
+    "next": "12.0.7",
+    "next-transpile-modules": "^9.0.0",
+    "react": "18.0.0-rc.0",
+    "react-dom": "18.0.0-rc.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "serve": "npm run build && npm run start",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "devDependencies": {
+    "@types/next": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  },
+  "keywords": [],
+  "description": ""
+}
