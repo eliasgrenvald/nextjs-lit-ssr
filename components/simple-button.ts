@@ -85,7 +85,7 @@ class SimpleButton extends LitElement {
 
   render(): TemplateResult {
     return html`
-      <button .disabled=${this.disabled}>
+      <button ?disabled=${this.disabled}>
         <slot></slot>
       </button>
     `;

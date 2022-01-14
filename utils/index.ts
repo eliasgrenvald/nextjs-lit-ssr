@@ -1,2 +1,3 @@
 export * from  './create-markup';
-export * from './render-component';
+export * from './fetch-component';
+export * from './is-server';
